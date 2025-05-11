@@ -1,39 +1,42 @@
-## Welcome to GitHub Pages
+# ALONELUR的个人网站
 
-Hello, everyone!
+欢迎访问我的个人网站！这个网站使用GitHub Pages搭建，主要用于展示我的个人介绍、项目经验和技术博客。
 
-You can use the [editor on GitHub](https://github.com/ALONELUR/ALONELUR.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## 网站内容
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本网站包含以下几个主要部分：
 
-### Markdown
+- [首页](index.html)：网站主页，提供基本导航
+- [关于我](about.md)：个人简介、技能和工作经历
+- [项目展示](projects.md)：我参与开发的项目介绍
+- [技术博客](blog.md)：分享技术文章和学习心得
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 技术实现
 
-```markdown
-Syntax highlighted code block
+本网站基于以下技术实现：
 
-# Header 1
-## Header 2
-### Header 3
+- GitHub Pages：提供网站托管服务
+- Jekyll：静态网站生成器
+- Markdown：内容编写格式
+- HTML/CSS：页面结构和样式
 
-- Bulleted
-- List
+## 本地开发
 
-1. Numbered
-2. List
+如果您想在本地运行此网站，可以按照以下步骤操作：
 
-**Bold** and _Italic_ and `Code` text
+1. 克隆仓库：`git clone https://github.com/ALONELUR/ALONELUR.github.io.git`
+2. 安装Jekyll（如果尚未安装）：`gem install jekyll bundler`
+3. 进入项目目录：`cd ALONELUR.github.io`
+4. 启动本地服务器：`jekyll serve`
+5. 在浏览器中访问：`http://localhost:4000`
 
-[Link](url) and ![Image](src)
-```
+## 联系方式
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+如果您有任何问题或建议，欢迎通过以下方式联系我：
 
-### Jekyll Themes
+- GitHub：[ALONELUR](https://github.com/ALONELUR)
+- 邮箱：请参见[关于我](about.md)页面
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ALONELUR/ALONELUR.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 许可证
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+本网站内容采用 [MIT许可证](LICENSE) 进行许可。
